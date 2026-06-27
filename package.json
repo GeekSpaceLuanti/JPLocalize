@@ -1,0 +1,14 @@
+{
+  "name": "jp-localize",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "extract": "bun scripts/extract.ts",
+    "build": "bun scripts/build-tr.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.6.0"
+  }
+}
